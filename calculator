@@ -1,0 +1,14 @@
+    print(" mini calculator")
+    a=int(input("a:"))
+    b=int(input("b:"))
+    operation=input("add/sub/mul/div:")
+    if(operation=="add"):
+        print("addition of two number:",a+b)
+    elif(operation=="sub"):
+        print("sub of two number:",a-b)
+    elif(operation=="mul"):
+        print("multiplication of two number:",a*b)
+    elif(operation=="div"):
+        print("div of two number:",a/b)
+    else:
+        print("invalid")
